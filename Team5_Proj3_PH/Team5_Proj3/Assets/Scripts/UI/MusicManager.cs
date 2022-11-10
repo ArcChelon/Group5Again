@@ -35,7 +35,7 @@ public class MusicManager : MonoBehaviour
     private void Update()
     {
         string Name = SceneManager.GetActiveScene().name;
-        if (Name == "Level_1")
+        if (Name == "Level_1" || Name == "Level_2")
         {
             print("Why");
             for(int i = 0; i < 3; i++)
