@@ -14,6 +14,17 @@ public class CarAttack : MonoBehaviour
         this.gameObject.transform.position = new Vector3(this.transform.position.x, -1, this.transform.position.z);
         StartCoroutine(moveTowardPosition());
         Destroy(gameObject, 15f);
+
+        if (this.gameObject.transform.position.z > 3.5)
+        {
+            this.gameObject.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, 3);
+        }
+        else if (this.gameObject.transform.position.z < -3.5)
+        {
+            this.gameObject.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -3);
+        }
+
+
     }
 
     // Update is called once per frame

@@ -23,7 +23,7 @@ public class DroneAttack : MonoBehaviour
         {
             this.transform.position = Vector3.MoveTowards(transform.position, positionToMove.position, Time.deltaTime * moveSpeed);
         }
-        positionStart = new Vector3(this.transform.position.x, -.86f, this.transform.position.z);
+        positionStart = new Vector3(this.transform.position.x, -0.786f, this.transform.position.z);
         rotation = this.transform.rotation;
     }
     private IEnumerator waitToMove()

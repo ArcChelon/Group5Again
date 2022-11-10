@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
     }
     private IEnumerator immunityFrames()
     {
-        SpriteRenderer color = gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>();
+        SpriteRenderer color = gameObject.transform.Find("PlayerAnim").GetComponent<SpriteRenderer>();
         Color OGColor = color.color;
         color.color = Color.red;
         
