@@ -6,6 +6,8 @@ public class CarAttack : MonoBehaviour
 {
     [SerializeField] Transform drivePosition;
     [SerializeField] float carSpeed;
+    [SerializeField] AudioSource vroom;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,7 @@ public class CarAttack : MonoBehaviour
         this.gameObject.transform.position = new Vector3(this.transform.position.x, -1, this.transform.position.z);
         StartCoroutine(moveTowardPosition());
         Destroy(gameObject, 15f);
+        vroom.Play();
 
         if (this.gameObject.transform.position.z > 3.5)
         {

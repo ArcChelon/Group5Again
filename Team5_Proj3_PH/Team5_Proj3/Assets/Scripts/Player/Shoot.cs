@@ -13,6 +13,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] Transform bullet;
     [SerializeField] Transform gunBarrel;
     [SerializeField] Transform targetPosition;
+    [SerializeField] AudioSource shoot;
 
     private Vector3 positionStart;
     private Quaternion bulletRotation;
@@ -61,6 +62,7 @@ public class Shoot : MonoBehaviour
         
         Vector3 shootDir = (targetPosition.position - positionStart).normalized;
         Shot.GetComponent<Bullet>().Setup(shootDir, "Player");
+        shoot.Play();
         
         
 
