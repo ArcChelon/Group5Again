@@ -15,6 +15,8 @@ public class ShooterAttack : MonoBehaviour
     [SerializeField] Transform beginTargetMiddle;
     [SerializeField] Transform beginTargetBottom;
 
+    [SerializeField] AudioSource shoot;
+
     private Vector3 positionStart;
     private Quaternion bulletRotation;
 
@@ -61,6 +63,7 @@ public class ShooterAttack : MonoBehaviour
         {
             EnemyShoot(this.gameObject.transform.position.z);
             timesShot += 1;
+            shoot.Play();
             StartCoroutine(tripleShot());
         }
         else
