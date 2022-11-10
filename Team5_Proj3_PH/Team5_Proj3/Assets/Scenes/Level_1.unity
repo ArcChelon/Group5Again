@@ -1981,6 +1981,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5219720051225400564, guid: c402d02eb0eb58844a1b972ba369613a, type: 3}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
+      propertyPath: runner
+      value: 
+      objectReference: {fileID: 5631280163023853049, guid: ac77d108871070c498488995dc7e6cf2, type: 3}
+    - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
+      propertyPath: shooter
+      value: 
+      objectReference: {fileID: 4965053383313656075, guid: 929b0903128416045b445635b3bdd80f, type: 3}
+    - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: spawnCount
       value: 2
       objectReference: {fileID: 0}
