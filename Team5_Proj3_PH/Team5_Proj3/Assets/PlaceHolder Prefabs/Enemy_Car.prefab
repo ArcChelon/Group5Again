@@ -2499,7 +2499,6 @@ GameObject:
   - component: {fileID: 1688210356816213341}
   - component: {fileID: 8957344839498014747}
   - component: {fileID: 7659434723429594890}
-  - component: {fileID: 2979754768878171741}
   m_Layer: 0
   m_Name: Car
   m_TagString: Car
@@ -2572,22 +2571,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drivePosition: {fileID: 6981689633212054745}
   carSpeed: 15
---- !u!114 &2979754768878171741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6895068533211589675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4b667217855c5499f9299073354998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shooterHealth: 0
-  runnerHealth: 0
-  droneHealth: 0
-  carHealth: 2.3123122e+13
 --- !u!1 &7101674321978944292
 GameObject:
   m_ObjectHideFlags: 0

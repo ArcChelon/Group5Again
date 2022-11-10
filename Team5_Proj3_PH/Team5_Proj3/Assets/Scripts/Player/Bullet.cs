@@ -50,7 +50,7 @@ public class Bullet : MonoBehaviour
         }
         else if (other.CompareTag("Car") && parentShooter == "Player")
         {
-            other.GetComponent<EnemieHealth>().damageEnemie(1);
+            print("Not shootable");
             Destroy(gameObject);
         }
         else if (other.CompareTag("Player") && parentShooter == "Shooter")
