@@ -217,15 +217,15 @@ public class EnemySpawner : MonoBehaviour
     }
     private Transform ReplacementSpawn()
     {
-        int replacement = Random.Range(0, 1);
+        int replacement = Random.Range(0, 2);
         Transform chosen;
         if(replacement == 0)
         {
-            chosen = shooter;
+            chosen = runner;
         }
         else
         {
-            chosen = runner;
+            chosen = shooter;
         }
         return chosen;
     }
@@ -247,10 +247,12 @@ public class EnemySpawner : MonoBehaviour
         }
         if (GameObject.FindWithTag("Car") != null && currentScene == "Level_2")
         {
+            print("Car found");
             isCarSpawned = true;
         }
         else
         {
+            print("Car not found");
             isCarSpawned = false;
         }
     }

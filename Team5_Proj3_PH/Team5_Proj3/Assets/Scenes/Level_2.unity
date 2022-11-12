@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: playerLives
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4962941443137941534, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
+      propertyPath: immunityTimesToCount
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721276, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -246,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: car
       value: 
-      objectReference: {fileID: 2833145328946933803, guid: 89501102f237d1b4c95f0293de854c0d, type: 3}
+      objectReference: {fileID: 351193771923619511, guid: 0d5af55ac450f124eb13174a6e9158d2, type: 3}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: drone
       value: 
@@ -261,7 +265,7 @@ PrefabInstance:
       objectReference: {fileID: 4965053383313656075, guid: 929b0903128416045b445635b3bdd80f, type: 3}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: carWeight
-      value: 100
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: spawnCount
@@ -269,7 +273,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: droneWeight
-      value: 100
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
+      propertyPath: isCarSpawned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: runnerWeight

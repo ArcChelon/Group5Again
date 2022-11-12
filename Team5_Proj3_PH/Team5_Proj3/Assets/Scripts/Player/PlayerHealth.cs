@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] GameObject DeathPanel;
     private bool isDamageAble = true;
     private int countingFrames;
+    [SerializeField] int immunityTimesToCount;
 
 
 
@@ -38,9 +39,9 @@ public class PlayerHealth : MonoBehaviour
         Color OGColor = color.color;
         color.color = Color.red;
         
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.5f);
         color.color = OGColor;
-        if (countingFrames < 3)
+        if (countingFrames < immunityTimesToCount)
         {
             print("Counting");
             

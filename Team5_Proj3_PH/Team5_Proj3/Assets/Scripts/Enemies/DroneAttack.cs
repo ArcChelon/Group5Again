@@ -7,6 +7,7 @@ public class DroneAttack : MonoBehaviour
     [SerializeField] Transform positionToMove;
     [SerializeField] public float moveSpeed;
     [SerializeField] Transform oil;
+    [SerializeField] Transform spikes;
     private bool isMoving = false;
     private Vector3 positionStart;
     private Quaternion rotation;
@@ -42,5 +43,10 @@ public class DroneAttack : MonoBehaviour
     {
         Transform slick = Instantiate(oil, positionStart, rotation);
         slick.GetComponent<OilSlick>().DA = this.gameObject.GetComponent<DroneAttack>();
+    }
+    private void spawnSpike()
+    {
+        Transform spike = Instantiate(spikes, positionStart, rotation);
+        
     }
 }

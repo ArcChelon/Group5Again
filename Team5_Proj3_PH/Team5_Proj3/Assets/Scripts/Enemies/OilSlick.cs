@@ -10,6 +10,7 @@ public class OilSlick : MonoBehaviour
     void Start()
     {
         PH = GameObject.Find("Player_PH").GetComponent<PlayerMovement>();
+        Destroy(gameObject, 5f);
         
     }
 
