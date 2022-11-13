@@ -36,7 +36,7 @@ public class DroneAttack : MonoBehaviour
     private IEnumerator oilCoolDown()
     {
         yield return new WaitForSeconds(2);
-        spawnOilSlick();
+        spawnSpike();
         StartCoroutine(oilCoolDown());
     }
     private void spawnOilSlick()
@@ -47,6 +47,7 @@ public class DroneAttack : MonoBehaviour
     private void spawnSpike()
     {
         Transform spike = Instantiate(spikes, positionStart, rotation);
+        
         
     }
 }

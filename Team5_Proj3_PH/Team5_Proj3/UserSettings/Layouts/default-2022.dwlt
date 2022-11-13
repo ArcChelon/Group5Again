@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 48
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 563
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 49
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 98
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,13 +270,13 @@ MonoBehaviour:
     height: 563
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/PlaceHolder Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/PlaceHolder Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\School\SDG course\SGD 212\Group5Again\Team5_Proj3_PH\Team5_Proj3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48600000
-    m_LastClickedID: 24648
-    m_ExpandedIDs: 00000000386000003a600000566100007c6100006081000000ca9a3b
+    m_SelectedIDs: ca760000
+    m_LastClickedID: 30410
+    m_ExpandedIDs: 00000000627600006476000066760000687600006a76000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000386000003a600000
+    m_ExpandedIDs: 00000000627600006476000066760000687600006a760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,23 +517,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c8600000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d294f4ff58b9f4ffbca5f5ff16c1f5ff6cc1f5ffccadf6ff98cff6ff02d0f6ff7cd0f6ff82e3f6ff8ee3f6ff7014f8ffde26f8ffc639f8ff1a26f9ff960afaffda22faffb879faff507afaff5472fbffb674fbfff077fbff28a1fbffa48cfcff048efcff9c8efcff6a74fdffe074fdff5275fdffc475fdff9279fdfff868feff0c7cfeffae7cfeff387efeff1abcfeff487cffffdaa6ffff30c5ffff38c5ffff54f0ffff14f3ffff30fbffffaac40300fac4030038520700e0660700
+      m_SelectedIDs: 0c60fdff
+      m_LastClickedID: -172020
+      m_ExpandedIDs: 486afdff7c6afdff8c6afdff5270fdffec5bfeff4887feff967bffff1efbffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Cube
-        m_OriginalName: Cube
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 468054
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -801,9 +801,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -180.51, y: 8.06, z: -8.58}
+    m_Target: {x: 20.970259, y: 12.677986, z: -15.159479}
     speed: 2
-    m_Value: {x: -180.51, y: 8.06, z: -8.58}
+    m_Value: {x: 20.970259, y: 12.677986, z: -15.159479}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -849,13 +849,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.27277333, y: -0.01529895, z: 0.0043386775, w: -0.9619488}
+    m_Target: {x: 0.1858527, y: -0.57654375, z: 0.1367032, w: 0.78382516}
     speed: 2
-    m_Value: {x: -0.27277285, y: -0.015298923, z: 0.0043386696, w: -0.9619471}
+    m_Value: {x: 0.18585144, y: -0.5765398, z: 0.13670227, w: 0.78381985}
   m_Size:
-    m_Target: 6.8620353
+    m_Target: 12.124355
     speed: 2
-    m_Value: 6.8620353
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -946,7 +946,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

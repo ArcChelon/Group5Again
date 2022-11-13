@@ -247,12 +247,12 @@ public class EnemySpawner : MonoBehaviour
         }
         if (GameObject.FindWithTag("Car") != null && currentScene == "Level_2")
         {
-            print("Car found");
+            
             isCarSpawned = true;
         }
         else
         {
-            print("Car not found");
+            
             isCarSpawned = false;
         }
     }
