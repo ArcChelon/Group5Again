@@ -21,5 +21,9 @@ public class DestroyerCollider : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("Ground"))
+        {
+            Destroy(other.gameObject, 2f);
+        }
     }
 }

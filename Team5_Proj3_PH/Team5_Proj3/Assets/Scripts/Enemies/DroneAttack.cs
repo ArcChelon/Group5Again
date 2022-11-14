@@ -11,10 +11,12 @@ public class DroneAttack : MonoBehaviour
     private bool isMoving = false;
     private Vector3 positionStart;
     private Quaternion rotation;
+    private Transform first;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(waitToMove());
+        first = oil;
     }
 
     // Update is called once per frame
@@ -36,7 +38,18 @@ public class DroneAttack : MonoBehaviour
     private IEnumerator oilCoolDown()
     {
         yield return new WaitForSeconds(2);
-        spawnSpike();
+        
+        if(first == spikes)
+        {
+            spawnOilSlick();
+            first = oil;
+        }
+        else
+        {
+            spawnSpike();
+            first = spikes;
+        }
+        
         StartCoroutine(oilCoolDown());
     }
     private void spawnOilSlick()
