@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
         this.shootDir = shootDir;
         //transform.eulerAngles = new Vector3(rotation.x, rotation.y, 90);
         parentShooter = Parent;
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 1.5f);
     }
 
 
