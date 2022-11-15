@@ -9,6 +9,9 @@ public class ScoreKeeper : MonoBehaviour
     public static int finalScore2;
     private string currentScene;
 
+    public int HighScore1 = 0;
+    public int HighScore2 = 0;
+
     [SerializeField] TMP_Text scoreText;
     // Start is called before the first frame update
     void Start()
