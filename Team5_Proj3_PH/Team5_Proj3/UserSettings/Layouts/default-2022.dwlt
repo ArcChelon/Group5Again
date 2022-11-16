@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 50
+  controlID: 125
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 562
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Boss
+    - Assets/AlexisStuff/Audio
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Boss
+  - Assets/AlexisStuff/Audio
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\School\SDG course\SGD 212\Group5Again\Team5_Proj3_PH\Team5_Proj3
+  m_LastProjectPath: C:\Users\Conno\Documents\GitHub\Group5Again\Team5_Proj3_PH\Team5_Proj3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 285f0000
-    m_LastClickedID: 24360
-    m_ExpandedIDs: 00000000025f0000045f0000065f0000085f00000a5f0000245f00003a5f00003e5f000000ca9a3b
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 8c600000
+    m_LastClickedID: 24716
+    m_ExpandedIDs: 00000000466000004860000070600000726000008460000086600000886000008a6000008c600000f660000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000025f0000045f0000065f0000085f00000a5f0000
+    m_ExpandedIDs: 000000004660000048600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c25c0000
-      m_LastClickedID: 23746
-      m_ExpandedIDs: 30fbffff745c0000
+      m_SelectedIDs: 4c650000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -801,9 +801,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.0232525, y: 0.089999914, z: -3.0335999}
+    m_Target: {x: 16.258554, y: 6.5595407, z: -11.834118}
     speed: 2
-    m_Value: {x: 9.0232525, y: 0.089999914, z: -3.0335999}
+    m_Value: {x: 16.258554, y: 6.5595407, z: -11.834118}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -849,13 +849,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20095637, y: 0.1350014, z: -0.02799403, w: 0.9698774}
+    m_Target: {x: 0.20300338, y: -0.5756405, z: 0.15021281, w: 0.77768195}
     speed: 2
-    m_Value: {x: 0.20095089, y: 0.13499773, z: -0.027993266, w: 0.96985096}
+    m_Value: {x: -0.20300338, y: 0.5756405, z: -0.15021282, w: -0.77768195}
   m_Size:
-    m_Target: 5.442423
+    m_Target: 2.4413447
     speed: 2
-    m_Value: 5.442423
+    m_Value: 2.4413447
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -873,7 +873,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.109326854, y: -0.54077166, z: 0.07114437, w: -0.8309963}
+  m_LastSceneViewRotation: {x: 0.20095637, y: 0.1350014, z: -0.02799403, w: 0.9698774}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
