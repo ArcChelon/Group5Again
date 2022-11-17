@@ -31,7 +31,7 @@ public class BossMissile : MonoBehaviour
         }
         
 
-        
+        //2
         
     }
     private IEnumerator locking()

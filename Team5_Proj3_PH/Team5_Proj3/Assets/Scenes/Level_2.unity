@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: droneWeight
-      value: 15
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4962941444218721277, guid: b756c89fd8320bc4bb35f79c40a6d42a, type: 3}
       propertyPath: isCarSpawned
