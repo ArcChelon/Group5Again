@@ -222,6 +222,7 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &241066035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -281,6 +282,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
@@ -450,9 +453,12 @@ MonoBehaviour:
   coolDown: 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   gunWeight: 0
   laserWeight: 0
   missileWeight: 0
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
@@ -478,6 +484,7 @@ MonoBehaviour:
   BarTop: {fileID: 0}
   BarBot: {fileID: 0}
   laserTime: 5
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &362054800
@@ -539,6 +546,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
@@ -642,6 +651,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!21 &536590085
 Material:
   serializedVersion: 8
@@ -723,6 +733,8 @@ Material:
     - _Color: {r: 0, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
@@ -1398,6 +1410,7 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!21 &902481400
 Material:
   serializedVersion: 8
@@ -1479,6 +1492,8 @@ Material:
     - _Color: {r: 0, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
@@ -1776,7 +1791,11 @@ MeshRenderer:
   m_Materials:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 902481400}
+=======
+  - {fileID: 1555973802}
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
   - {fileID: 1555973802}
 >>>>>>> parent of cc6eab1 (Missiles)
@@ -2043,6 +2062,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 077155289d2e14247bd0864b560f74ac, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1742793176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2103,6 +2123,8 @@ PrefabInstance:
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
 =======
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
 --- !u!21 &1555973802
@@ -2187,6 +2209,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
 >>>>>>> parent of cc6eab1 (Missiles)
 =======
 >>>>>>> parent of cc6eab1 (Missiles)
@@ -2257,7 +2282,11 @@ MeshRenderer:
   m_Materials:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 536590085}
+=======
+  - {fileID: 1931000681}
+>>>>>>> parent of cc6eab1 (Missiles)
 =======
   - {fileID: 1931000681}
 >>>>>>> parent of cc6eab1 (Missiles)
