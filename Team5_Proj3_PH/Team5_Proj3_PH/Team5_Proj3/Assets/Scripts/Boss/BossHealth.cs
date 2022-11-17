@@ -12,6 +12,9 @@ public class BossHealth : MonoBehaviour
     private PlayerHealth PH;
     [SerializeField] GameObject Shield;
     private bool firstTimeOver = false;
+    [SerializeField] ParticleSystem explosion;
+    [SerializeField] ParticleSystem shockwave;
+    [SerializeField] AudioSource boom;
 
     // Start is called before the first frame update
     void Start()
@@ -51,15 +54,19 @@ public class BossHealth : MonoBehaviour
             healthText.text = bossHealth.ToString();
             if (bossHealth <= 0)
             {
-                Transform Zone = Instantiate(EndZone, BossPos, BossRot);
-                Destroy(gameObject);
+                StartCoroutine(Death());
             }
         }
 
     }
     private IEnumerator Death()
     {
-        yield return new WaitForSeconds(4);
+        explosion.Play();
+        shockwave.Play();
+        boom.Play();
+        yield return new WaitForSeconds(1);
+        Transform Zone = Instantiate(EndZone, BossPos, BossRot);
+        Destroy(gameObject);
     }
 
 

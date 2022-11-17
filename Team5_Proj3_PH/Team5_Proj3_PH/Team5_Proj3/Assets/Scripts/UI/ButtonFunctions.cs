@@ -21,6 +21,13 @@ public class ButtonFunctions : MonoBehaviour
         Time.timeScale = 1;
 
     }
+    public void OnLevelThreeButtonClick()
+    {
+        //ButtonClick();
+        SceneManager.LoadScene("Level_3");
+        Time.timeScale = 1;
+
+    }
 
     public void OnNextLevelButtonClick()
     {
