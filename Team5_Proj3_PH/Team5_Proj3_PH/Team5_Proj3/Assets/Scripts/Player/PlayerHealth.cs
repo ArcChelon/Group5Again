@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int playerLives;
     [SerializeField] TMP_Text healthText;
     [SerializeField] GameObject DeathPanel;
-    private bool isDamageAble = true;
+    public bool isDamageAble = true;
     private int countingFrames;
     [SerializeField] int immunityTimesToCount;
 

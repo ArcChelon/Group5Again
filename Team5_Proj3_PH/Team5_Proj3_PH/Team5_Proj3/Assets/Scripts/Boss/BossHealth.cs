@@ -7,29 +7,60 @@ public class BossHealth : MonoBehaviour
     [SerializeField] int bossHealth;
     [SerializeField] TMP_Text healthText;
     [SerializeField] Transform EndZone;
+    private Vector3 BossPos;
+    private Quaternion BossRot;
+    private PlayerHealth PH;
+    [SerializeField] GameObject Shield;
+    private bool firstTimeOver = false;
 
     // Start is called before the first frame update
     void Start()
     {
         healthText.text = bossHealth.ToString();
+        BossRot = gameObject.transform.rotation;
+        PH = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
+        StartCoroutine(firstTimeShield());
+    }
+
+    private IEnumerator firstTimeShield()
+    {
+        Shield.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        Shield.SetActive(false);
+        firstTimeOver = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        BossPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        if(PH.isDamageAble == false)
+        {
+            Shield.SetActive(true);
+        }
+        else if(PH.isDamageAble == true && firstTimeOver == true)
+        {
+            Shield.SetActive(false);
+        }
     }
     public void DamageBoss()
     {
-        bossHealth--;
-        healthText.text = bossHealth.ToString();
-        if(bossHealth <= 0)
+        if(PH.isDamageAble == true)
         {
-            Destroy(gameObject);
+            bossHealth--;
+            healthText.text = bossHealth.ToString();
+            if (bossHealth <= 0)
+            {
+                Transform Zone = Instantiate(EndZone, BossPos, BossRot);
+                Destroy(gameObject);
+            }
         }
+
     }
     private IEnumerator Death()
     {
         yield return new WaitForSeconds(4);
     }
+
+
 }
