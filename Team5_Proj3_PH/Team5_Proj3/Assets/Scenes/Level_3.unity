@@ -220,6 +220,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154591334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &241066035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -279,6 +281,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!1 &305785401
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,9 +448,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolDown: 3
+<<<<<<< HEAD
+<<<<<<< HEAD
   gunWeight: 0
   laserWeight: 0
   missileWeight: 0
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!114 &305785409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,6 +478,8 @@ MonoBehaviour:
   BarTop: {fileID: 0}
   BarBot: {fileID: 0}
   laserTime: 5
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &362054800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -525,6 +539,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!1 &402608154
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +640,8 @@ Transform:
   m_Father: {fileID: 982203757}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!21 &536590085
 Material:
   serializedVersion: 8
@@ -703,6 +723,10 @@ Material:
     - _Color: {r: 0, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!1 &650534326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1396,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887264153}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!21 &902481400
 Material:
   serializedVersion: 8
@@ -1453,6 +1479,10 @@ Material:
     - _Color: {r: 0, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!4 &982203757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3392822980437897925, guid: b0a44f6e4177171429407bdcb4146bf6, type: 3}
@@ -1744,7 +1774,15 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 902481400}
+=======
+  - {fileID: 1555973802}
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+  - {fileID: 1555973802}
+>>>>>>> parent of cc6eab1 (Missiles)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2003,6 +2041,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 077155289d2e14247bd0864b560f74ac, type: 3}
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1742793176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2062,6 +2102,94 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 994a068cd18552646afb9fae48490d85, type: 3}
+=======
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
+--- !u!21 &1555973802
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SingleLine-LightSaber(Clone)
+  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Glossiness: 0.5
+    - _LightSaberFactor: 0.8
+    - _LineScale: 0.13690324
+    - _LineWidth: 20
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvBasedLightSaberFactor: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+<<<<<<< HEAD
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+>>>>>>> parent of cc6eab1 (Missiles)
 --- !u!4 &1897465735
 Transform:
   m_ObjectHideFlags: 0
@@ -2127,7 +2255,15 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 536590085}
+=======
+  - {fileID: 1931000681}
+>>>>>>> parent of cc6eab1 (Missiles)
+=======
+  - {fileID: 1931000681}
+>>>>>>> parent of cc6eab1 (Missiles)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2210,6 +2346,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf45fe252c633f4b8f6aab9713c8b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!21 &1931000681
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SingleLine-LightSaber(Clone)
+  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Glossiness: 0.5
+    - _LightSaberFactor: 0.8
+    - _LineScale: 0.13690324
+    - _LineWidth: 20
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvBasedLightSaberFactor: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!43 &2000602944
 Mesh:
   m_ObjectHideFlags: 0

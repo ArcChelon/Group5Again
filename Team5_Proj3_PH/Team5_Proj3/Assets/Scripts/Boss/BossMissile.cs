@@ -23,7 +23,7 @@ public class BossMissile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerPosition = new Vector3(player.position.x, -0.874f, player.position.z);
+        playerPosition = new Vector3(player.position.x, -1.03f, player.position.z);
         if (isLocked == false)
         {
             Target.transform.position = playerPosition;
@@ -40,14 +40,9 @@ public class BossMissile : MonoBehaviour
         Target.SetActive(true);
         yield return new WaitForSeconds(3f);
         isLocked = true;
-        StartCoroutine(locked());
+        fireMissile();
         print("Locked");
 
-    }
-    private IEnumerator locked()
-    {
-        yield return new WaitForSeconds(1f);
-        fireMissile();
     }
 
     public void startLocking()

@@ -9,8 +9,6 @@ public class Missile : MonoBehaviour
     [SerializeField] ParticleSystem smoke;
     [SerializeField] MeshRenderer missile;
     [SerializeField] CapsuleCollider cp;
-    [SerializeField] ParticleSystem Explosion;
-    [SerializeField] AudioSource expSound;
 
 
     private Vector3 shootDir;
@@ -57,14 +55,11 @@ public class Missile : MonoBehaviour
     private IEnumerator explosion()
     {
         DA.cooldown();
-        BM.Target.SetActive(false);
         missile.enabled = false;
-        Explosion.Play();
-        expSound.Play();
 
 
         yield return new WaitForSeconds(1f);
-        
+        BM.Target.SetActive(false);
         Destroy(this.gameObject);
     }
     //2
