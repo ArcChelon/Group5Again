@@ -6,6 +6,7 @@ public class BossHealth : MonoBehaviour
 {
     [SerializeField] int bossHealth;
     [SerializeField] TMP_Text healthText;
+    [SerializeField] Transform EndZone;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +27,9 @@ public class BossHealth : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    private IEnumerator Death()
+    {
+        yield return new WaitForSeconds(4);
     }
 }
